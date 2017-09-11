@@ -17,7 +17,7 @@ namespace Ch13Ex03_MultipurposeEventHandler
 
         public Connection()
         {
-            pollTimer = new Timer(100);
+            pollTimer = new Timer(200);
             pollTimer.Elapsed += new ElapsedEventHandler(CheckForMessage);
         }
 
